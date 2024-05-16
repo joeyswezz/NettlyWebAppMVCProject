@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Shared\SignIn\" />
+    <Folder Include="Views\Shared\SignUp\" />
+  </ItemGroup>
+
 </Project>

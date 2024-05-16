@@ -41,6 +41,11 @@ public class FeedbackController : Controller
         return new List<FeedbackViewModel>(); // Placeholder
     }
 
+    public IActionResult Feedback()
+    {
+        return View();
+    }
+
     private void SaveFeedback(FeedbackViewModel model)
     {
         // Logic to save feedback to the database

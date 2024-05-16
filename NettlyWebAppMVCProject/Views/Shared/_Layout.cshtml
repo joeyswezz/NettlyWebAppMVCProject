@@ -105,7 +105,7 @@
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Home" asp-action="AppointmentBooking">Book Appointment</a></li>
                 <li><a asp-controller="Home" asp-action="Booking">Manage Your Bookings</a></li>
-                <li><a asp-controller="Feedback" asp-action="Index">Feedback</a></li>
+                <li><a asp-controller="Feedback" asp-action="Feedback">Feedback</a></li>
                 <li><a asp-controller="Feedback" asp-action="FeedbackCollection">Feedback Collection</a></li>
                 <li><a asp-controller="Home" asp-action="FAQs">FAQs</a></li>
                 <li><a asp-controller="Home" asp-action="AboutUs">About Us</a></li>
@@ -132,6 +132,8 @@
     <footer class="footer">
         &copy; 2024 - The Nettly Company. All Rights Reserved - <a href="/Privacy">Privacy</a>
     </footer>
+
+    @RenderSection("Scripts", required: false)
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
